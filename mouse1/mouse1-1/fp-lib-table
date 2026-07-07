@@ -1,0 +1,11 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "D2FT") (type "KiCad") (uri "${KIPRJMOD}/D2FT.pretty") (options "") (descr ""))
+	(lib (name "AlpineRotaryEncoder") (type "KiCad") (uri "${KIPRJMOD}/AlpineRotaryEncoder.pretty") (options "") (descr ""))
+	(lib (name "MX8733B") (type "KiCad") (uri "${KIPRJMOD}/MX8733B.pretty") (options "") (descr ""))
+	(lib (name "IllinoisCapacitor_r3mm_h8mm") (type "KiCad") (uri "${KIPRJMOD}/IllinoisCapacitor_r3mm_h8mm.pretty") (options "") (descr ""))
+	(lib (name "SW_PUSH_6mm_h7.3mm-2pin") (type "KiCad") (uri "/home/sb3x/Code/electronics-projects/Extreme-XM102K/mouse1/SW_PUSH_6mm_h7.3mm-2pin.pretty") (options "") (descr ""))
+	(lib (name "USB_direct_wire") (type "KiCad") (uri "${KIPRJMOD}/USB_direct_wire.pretty") (options "") (descr ""))
+	(lib (name "MX8733B") (type "KiCad") (uri "${KIPRJMOD}/MX8733B.pretty") (options "") (descr ""))
+	(lib (name "SmallCapacitor") (type "KiCad") (uri "${KIPRJMOD}/SmallCapacitor.pretty") (options "") (descr ""))
+)

@@ -1,2 +1,71 @@
-# XM102K-Mouse-KiCAD
-My manual remake of the XM102K mouse PCB in KiCAD. GERBER files included.
+# XM102K Mouse in KiCAD 
+[@PrinterFixer](https://www.youtube.com/@PrinterFixer)
+[Video title here](VIDEO HERE - IF THERE IS NONE THEN IT IS NOT DONE)
+
+KiCAD project with GERBER and DRILL files of the XM102K mouse PCB from 2012/02/03, remade manually by me, C0m3b4ck. All models of all components are in place, the PCB is of accurate size. The only inacurracies are the connections, which aren't 1:1 to the actual PCB. The microswitch and the rotary encoder are the exact same but from different companies (couldn't find original companies).
+
+**The mouse is commonly dropshipped from China under many companies.** 
+## Components:
+* MX8733B IC [documentation included](https://github.com/C0m3b4ck/XM102K-C0m3b4ck/blob/main/DOCS/MX8733B.pdf),
+* Illinois KXM Capacitor 100uf [documentation included](https://github.com/C0m3b4ck/XM102K-C0m3b4ck/blob/main/DOCS/Omron-D2F-01-A-datasheet.pdf),
+* 68ohm resistor,
+* Omron D2F-01 microswitch [documentation included](https://github.com/C0m3b4ck/XM102K-C0m3b4ck/blob/main/DOCS/Omron-D2F-01-A-datasheet.pdf) (same as on PCB but from a different company),
+* 2-pin LED,
+* 3-pin AlpsAlpine Rotary Encoder,
+
+## Repository layout
+
+- `DOCS/` — component datasheets and board photos.
+- `XM102K-GERBER-DRILL/` — extracted Gerber and drill files.
+- `XM102K-GERBER-DRILL.7z` — archived Gerber/drill package.
+- `Xtreme-XM102K/` — KiCAD project files - models, footprints, symbols, schematic and PCB.
+
+## Photo gallery (DOCS)
+
+A compact gallery of the mouse PCB and components:
+
+<table>
+  <tr>
+    <td>
+      <img src="DOCS/IMG_6143.png" alt="Stock board overview" width="250"><br>
+      <sub>The mouse case, stock photo.</sub>
+    </td>
+    <td>
+      <img src="DOCS/IMG_6684.png" alt="Full case and cable from top" width="250"><br>
+      <sub>Full mouse case and cable view from top.</sub>
+    </td>
+    <td>
+      <img src="DOCS/IMG_6728.png" alt="PCB top view" width="250"><br>
+      <sub>View of the PCB from top.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="DOCS/IMG_6729.png" alt="PCB left view" width="250"><br>
+      <sub>View of the PCB from the left.</sub>
+    </td>
+    <td>
+      <img src="DOCS/IMG_6730.png" alt="PCB right view" width="250"><br>
+      <sub>View of the PCB from the right..</sub>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="DOCS/IMG_6731.png" alt="PCB underside" width="250"><br>
+      <sub>The underside of the PCB.</sub>
+    </td>
+  </tr>
+</table>
+
+## Component documentation from 
+
+These PDFs document the main components found on the board:
+
+- [CAPPRD_Illinois_Capacitor_KXM_Series.pdf](DOCS/CAPPRD_Illinois_Capacitor_KXM_Series.pdf) — Illinois Capacitor KXM series (bulk electrolytic capacitors).
+- [MX8733B.pdf](DOCS/MX8733B.pdf) — MX8733B 8-pin mouse sensor datasheet used by the XM102K.
+- [Omron-D2F-01-A-datasheet.pdf](DOCS/Omron-D2F-01-A-datasheet.pdf) — Omron D2F-01-A microswitch datasheet for mouse buttons.
+
+## Purpose
+
+This repository preserves the complete investigation of the XM102K mouse hardware: project files, documentation and images.
+It is intended as a technical reference for anyone analyzing, repairing, or getting inspired by the XM102K design and the MX8733B-based optical mouse architecture.
