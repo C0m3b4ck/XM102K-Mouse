@@ -4456,6 +4456,95 @@
 		)
 	)
 	(symbol
+		(lib_id "AlpineRotaryEncoder:AlpineRotaryEncoderR")
+		(at 87.63 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "053bf7f7-d130-4dc9-bcd6-6d893cb7e3c6")
+		(property "Reference" "ENC1"
+			(at 90.63 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 87.63 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a20bad4-9155-4f01-9323-18c43f19733e")
+		)
+		(pin "2"
+			(uuid "a31c4f97-5b18-4c0c-b6d9-a2d4fa7b9179")
+		)
+		(pin "3"
+			(uuid "1b0d529f-8ac5-4d8c-a2b0-ae9a9a5b2b62")
+		)
+		(pin "4"
+			(uuid "efeb75da-f3d9-42fc-91a0-aef44862a19e")
+		)
+		(pin "5"
+			(uuid "f19b96d6-537d-44d3-bb68-2ddb416ad3d8")
+		)
+		(instances
+			(project "mouse1-1"
+				(path "/5662a615-6987-4e10-b2bd-1545c5d92725"
+					(reference "ENC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 193.04 55.88 180)
 		(unit 1)
@@ -5036,95 +5125,6 @@
 			(project "mouse1-1"
 				(path "/5662a615-6987-4e10-b2bd-1545c5d92725"
 					(reference "ENC-b2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AlpineRotaryEncoder:AlpineRotaryEncoderR")
-		(at 87.63 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c76582b-a18d-4fac-9861-236421be90f8")
-		(property "Reference" "ENC1"
-			(at 90.63 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 87.63 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AlpineRotaryEncoder:AlpineRotaryEncoder"
-			(at 87.63 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d7085234-8400-4dde-9b81-fb30ac3586e7")
-		)
-		(pin "3"
-			(uuid "4537a233-db66-4c43-b9cd-b79a4c1bee2c")
-		)
-		(pin "4"
-			(uuid "cd8923bd-ff54-4e11-9115-6c60c5e1a453")
-		)
-		(pin "5"
-			(uuid "7368a4a7-5127-4b2a-b9a0-739964a60d44")
-		)
-		(pin "2"
-			(uuid "9ff5ebd9-0b4d-43a8-a9cb-3c7e8e791e72")
-		)
-		(instances
-			(project "mouse1-1"
-				(path "/5662a615-6987-4e10-b2bd-1545c5d92725"
-					(reference "ENC1")
 					(unit 1)
 				)
 			)
