@@ -16,10 +16,10 @@ It is intended as a technical reference for anyone analyzing, repairing, or gett
 * [Only soldered compoenents](https://github.com/C0m3b4ck/XM102K-Mouse/blob/main/XM102K-GERBER-DRILL.7z)
 * [Bill of Materials in .CSV](https://github.com/C0m3b4ck/XM102K-Mouse/blob/main/XM102K-BOM.csv)
 ## Components:
-* MX8733B IC - [documentation included](https://github.com/C0m3b4ck/XM102K-C0m3b4ck/blob/main/DOCS/MX8733B.pdf),
-* Illinois KXM Capacitor 100uf - [documentation included](https://github.com/C0m3b4ck/XM102K-C0m3b4ck/blob/main/DOCS/Omron-D2F-01-A-datasheet.pdf),
+* MX8733B IC - [documentation included](https://github.com/C0m3b4ck/XM102K-Mouse/blob/main/DOCS/MX8733B.pdf),
+* Illinois KXM Capacitor 100uf - [documentation included](https://github.com/C0m3b4ck/XM102K-Mouse/blob/main/DOCS/Omron-D2F-01-A-datasheet.pdf),
 * 68ohm resistor,
-* Omron D2F-01 microswitch - [documentation included](https://github.com/C0m3b4ck/XM102K-C0m3b4ck/blob/main/DOCS/Omron-D2F-01-A-datasheet.pdf) (same as on PCB but from a different company),
+* Omron D2F-01 microswitch - [documentation included](https://github.com/C0m3b4ck/XM102K-Mouse/blob/main/DOCS/Omron-D2F-01-A-datasheet.pdf) (same as on PCB but from a different company),
 * 2-pin LED,
 * 3-pin AlpsAlpine Rotary Encoder,
 
