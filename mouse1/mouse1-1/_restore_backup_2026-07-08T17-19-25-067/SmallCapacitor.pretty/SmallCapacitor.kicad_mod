@@ -1,0 +1,150 @@
+(footprint "SmallCapacitor"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ecd8aa31-91bc-4bf4-bc42-41b778eba9a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SmallCapacitor"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "973cd3e3-e4e0-45da-9093-831ea6030217")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e89f7398-76d8-43d9-a286-d71b6b8a9de7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6260a97-b2dc-41f8-af20-9eb0a94cf334")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1 -1.5)
+		(end 1 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d13be4c7-e5a4-43c9-ab88-1ec307b94555")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 1)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "de0ac3b5-14c0-450d-8475-255d8db1323d")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 -1)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "404d9887-8df4-4fbf-95e0-6a4c57c2d28f")
+	)
+	(zone
+		(layers "F.Cu" "F.SilkS")
+		(uuid "d9522aef-7d1b-498c-8b84-92a9a3a1c67c")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -0.5 -1.5) (xy 0.5 -1.5) (xy 0.5 -0.5) (xy -0.5 -0.5)
+			)
+		)
+	)
+	(zone
+		(layers "F.Cu" "F.SilkS")
+		(uuid "47d64645-9710-4f76-9301-b7031ebce2ce")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -0.5 0.5) (xy 0.5 0.5) (xy 0.5 1.5) (xy -0.5 1.5)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

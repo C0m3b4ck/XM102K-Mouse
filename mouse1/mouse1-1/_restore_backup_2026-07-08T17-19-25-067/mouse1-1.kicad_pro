@@ -681,7 +681,7 @@
         "uuid": "5662a615-6987-4e10-b2bd-1545c5d92725"
       }
     ],
-    "used_designators": "ENC1-4,SWR\\-b1,SWM\\-b1,#PWR1-6,ENC\\-a1,C\\-a1,U1-2,D1\\-b1,D1-3,R1-2,C1\\-a1,D1\\-a1-2,R1\\-a1,SWL\\-a1,R1\\-b1,SW1-4,C1-3,SWM\\-a1,ENC\\-c1,SWL\\-b1,U1\\-demo1,SWM1-2,C1\\-b1,C\\-b1,SWR1-2,ENC\\-b1-2,SWL1-2,D1\\-c1,SWR\\-a1,ENC\\-d1,USB1",
+    "used_designators": "SW1-4,R1\\-b1,SWR\\-b1,SWM\\-b1,#PWR1-6,ENC\\-a1,C\\-a1,U1-2,D1\\-b1,D1-3,R1-2,C1\\-a1,D1\\-a1-2,C1-3,SWM\\-a1,ENC\\-c1,SWL\\-b1,U1\\-demo1,SWM1-2,C1\\-b1,ENC\\-b1-2,SWL1-2,D1\\-c1,SWR\\-a1,ENC\\-d1,USB1,SWR1-2,C\\-b1,ENC1-4,R1\\-a1,SWL\\-a1",
     "variants": []
   },
   "sheets": [
