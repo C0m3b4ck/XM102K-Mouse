@@ -5,6 +5,7 @@
 KiCAD project with GERBER and DRILL files of the XM102K mouse PCB from 2012/02/03, remade manually by me, C0m3b4ck. All models of all components are in place, the PCB is of accurate size. The only inacurracies are the connections, which aren't 1:1 to the actual PCB. The microswitch and the rotary encoder are the exact same but from different companies (couldn't find original companies).
 
 **The mouse is commonly dropshipped from China under many companies.** 
+## Note: XM102K-GERBER-DRILL-FULL.7z has some broken connections but has ALL components wired
 ## Components:
 * MX8733B IC [documentation included](https://github.com/C0m3b4ck/XM102K-C0m3b4ck/blob/main/DOCS/MX8733B.pdf),
 * Illinois KXM Capacitor 100uf [documentation included](https://github.com/C0m3b4ck/XM102K-C0m3b4ck/blob/main/DOCS/Omron-D2F-01-A-datasheet.pdf),
@@ -26,6 +27,22 @@ A compact gallery of the mouse PCB and components:
 
 <table>
   <tr>
+    <td>
+      <img src="DOCS/pcb_top.png" alt="Virtual PCB top" width="250"><br>
+      <sub>The mouse case, stock photo.</sub>
+    </td>
+    <td>
+      <img src="DOCS/pcb_underside.png" alt="Virtual PCB underside" width="250"><br>
+      <sub>The mouse case, stock photo.</sub>
+    </td>
+    <td>
+      <img src="DOCS/pcb_left.png" alt="Virtual PCB left" width="250"><br>
+      <sub>The mouse case, stock photo.</sub>
+    </td>
+    <td>
+      <img src="DOCS/pcb_right.png" alt="Virtual PCB right" width="250"><br>
+      <sub>The mouse case, stock photo.</sub>
+    </td>
     <td>
       <img src="DOCS/IMG_6143.png" alt="Stock board overview" width="250"><br>
       <sub>The mouse case, stock photo.</sub>
