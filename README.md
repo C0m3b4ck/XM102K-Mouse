@@ -4,12 +4,23 @@
 
 KiCAD project with GERBER and DRILL files of the XM102K mouse PCB from 2012/02/03, remade manually by me, C0m3b4ck. All models of all components are in place, the PCB is of accurate size. The only inacurracies are the connections, which aren't 1:1 to the actual PCB. The microswitch and the rotary encoder are the exact same but from different companies (couldn't find original companies).
 
-**The mouse is commonly dropshipped from China under many companies.** 
+**The mouse PCB is from 2012/02/03. It is end-of-life and comes from an unknown Chinese manufacturer.** 
 
-## Purpose
+## Capabilities
+**From the MX8733B documentation:**
+* Optical Navigation Technology
+* Universal Serial Bus Specification, version 2.0
+* USB HID Specification, version 1.1
+* USB-IF and WHQL compliable
+* 5V Power Supply
+* Power saving during no motion
+* On chip LED drive with regulated current
+* Crystal-less
+* 1000CPI resolution (Counts per Inch)
+* Low electromagnetic inference radiation
+* Supports 3D (X, Y, Z) input
+* Supports 3 buttons and mechanical wheel encoding
 
-This repository preserves the complete investigation of the XM102K mouse hardware: project files, documentation and images.
-It is intended as a technical reference for anyone analyzing, repairing, or getting inspired by the XM102K design and the MX8733B-based optical mouse architecture.
 
 ## GERBER, DRILL and BOM (click to download)
 * [Full labelling and components](https://github.com/C0m3b4ck/XM102K-Mouse/blob/main/XM102K-GERBER-DRILL-FULL.7z)
@@ -45,3 +56,8 @@ It is intended as a technical reference for anyone analyzing, repairing, or gett
 * D2F-01 microswitch from [Omron](https://www.omron.com/global/en/),
 * KXM Capacitor from Illinois capacitor (website shut down),
 * MX8733B mouse chip from [Shenzhen LIZE Electronic Technology Co., Ltd](http://www.lizhiic.com/)
+
+## Purpose
+
+This repository preserves the complete investigation of the XM102K mouse hardware: project files, documentation and images.
+It is intended as a technical reference for anyone analyzing, repairing, or getting inspired by the XM102K design and the MX8733B-based optical mouse architecture.
