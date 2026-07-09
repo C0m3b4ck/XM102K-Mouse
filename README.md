@@ -38,10 +38,10 @@ It is intended as a technical reference for anyone analyzing, repairing, or gett
 | <div align="center"><img src="DOCS/IMG_6143.png" alt="Stock board overview" width="250"><br><sub>The mouse case, stock photo.</sub></div> | <div align="center"><img src="DOCS/IMG_6684.png" alt="Full case and cable from top" width="250"><br><sub>Full mouse case and cable view from top.</sub></div> |  |  |
 | <div align="center"><img src="DOCS/schematic1.png" alt="Schematic 1" width="250"><br><sub>Schematic divided into sections.</sub></div> | <div align="center"><img src="DOCS/schematic2.png" alt="Schematic 2" width="250"><br><sub>Schematic of full circuit.</sub></div> |  |  |
 
-## Component documentation from 
+## Credits
 
-These PDFs document the main components found on the board:
-
-- [CAPPRD_Illinois_Capacitor_KXM_Series.pdf](DOCS/CAPPRD_Illinois_Capacitor_KXM_Series.pdf) — Illinois Capacitor KXM series (bulk electrolytic capacitors).
-- [MX8733B.pdf](DOCS/MX8733B.pdf) — MX8733B 8-pin mouse sensor datasheet used by the XM102K.
-- [Omron-D2F-01-A-datasheet.pdf](DOCS/Omron-D2F-01-A-datasheet.pdf) — Omron D2F-01-A microswitch datasheet for mouse buttons.
+**Project made manually by me on 7/07/2026.**
+* Alpine Rotary Encoder from [AlpsAlpine](https://www.alpsalpine.com/j/)
+* D2F-01 microswitch from [Omron](https://www.omron.com/global/en/),
+* KXM Capacitor from Illinois capacitor (website shut down),
+* MX8733B mouse chip from [Shenzhen LIZE Electronic Technology Co., Ltd](http://www.lizhiic.com/)
